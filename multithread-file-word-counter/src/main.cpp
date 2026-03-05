@@ -1,5 +1,6 @@
 #include "../include/word_counter.h"
 #include <mutex>
+#include <iostream>
 #include <thread>
 #include <vector>
 #include <string>
@@ -9,21 +10,28 @@ int main(){
 
 	std::vector<std::string> filenames = {"file1.txt", "file2.txt", "file3.txt"};
 	std::vector<std::thread> myThreads;
-	std::string target = "But";
+	std::string target = "lorem";
 
 
 	std::mutex mtx;
+	int globalCount = 0;
 	//std::lock_guard locks a mutex when created and automatically unlocks it when it goes out of scope.
 
 
+	//std::thread copies arguments by default
+	//we cannot copy a mutex
+	//std::ref tells the thread to pass a reference wrapper
 	for(std::string name : filenames){
-		myThreads.push_back(std::thread(countWordsInFile, name, target, mtx)); //when the thread is running i give it the mutex
+		myThreads.push_back(std::thread(countWordsInFile, name, target, std::ref(mtx), std::ref(globalCount))); //when the thread is running i give it the mutex
 	};
 
 
 	for(std::thread& t : myThreads){
 		t.join(); //join tells the main program to wait until this thread is completely finished before exiting
 	}
+
+
+	std::cout << "Total occurences in all files: " << globalCount << std::endl;
 
 
 

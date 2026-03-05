@@ -4,13 +4,14 @@
 #include <mutex>
 
 void countWordsInFile(std::string filename, std::string targetWord,
-                      std::mutex mtx) {
+                      std::mutex& mtx, int& globalCount) {
   int localCount = 0;
   std::ifstream inputFile(filename);
   std::string word;
   while (inputFile >> word) {
     {
-      std::lock_guard<std::mutex> guard(mtx); //lock guard is a safe lock that automatically unlocks
+      std::lock_guard<std::mutex> guard(
+          mtx); // lock guard is a safe lock that automatically unlocks
       std::cout << word << std::endl;
     }
 
@@ -20,8 +21,7 @@ void countWordsInFile(std::string filename, std::string targetWord,
   }
   {
     std::lock_guard<std::mutex> guard(mtx);
-    std::cout << filename << "contains" << localCount << "occurences of "
-              << targetWord;
+    globalCount += localCount;
   } // scopes the guard so when it goes out of scope it is automatically
     // unlocked
 }

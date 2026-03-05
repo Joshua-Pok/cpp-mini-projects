@@ -74,11 +74,14 @@ CMakeFiles/wordcount.dir/src/main.cpp.o: /home/joshua/Desktop/cpp-mini-projects/
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
+  /usr/include/c++/15.2.1/bits/basic_ios.h \
+  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
@@ -87,17 +90,28 @@ CMakeFiles/wordcount.dir/src/main.cpp.o: /home/joshua/Desktop/cpp-mini-projects/
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
+  /usr/include/c++/15.2.1/bits/exception_ptr.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
   /usr/include/c++/15.2.1/bits/invoke.h \
+  /usr/include/c++/15.2.1/bits/ios_base.h \
+  /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/locale_classes.h \
+  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets.h \
+  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
+  /usr/include/c++/15.2.1/bits/ostream.h \
+  /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
@@ -107,6 +121,7 @@ CMakeFiles/wordcount.dir/src/main.cpp.o: /home/joshua/Desktop/cpp-mini-projects/
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/std_abs.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/std_thread.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -118,9 +133,12 @@ CMakeFiles/wordcount.dir/src/main.cpp.o: /home/joshua/Desktop/cpp-mini-projects/
   /usr/include/c++/15.2.1/bits/stl_pair.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/streambuf.tcc \
+  /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
   /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
+  /usr/include/c++/15.2.1/bits/unique_lock.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
   /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
@@ -137,28 +155,44 @@ CMakeFiles/wordcount.dir/src/main.cpp.o: /home/joshua/Desktop/cpp-mini-projects/
   /usr/include/c++/15.2.1/cstdlib \
   /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
+  /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
+  /usr/include/c++/15.2.1/exception \
   /usr/include/c++/15.2.1/ext/alloc_traits.h \
+  /usr/include/c++/15.2.1/ext/atomicity.h \
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
   /usr/include/c++/15.2.1/initializer_list \
+  /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
+  /usr/include/c++/15.2.1/iostream \
+  /usr/include/c++/15.2.1/istream \
   /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/mutex \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/ratio \
+  /usr/include/c++/15.2.1/stdexcept \
+  /usr/include/c++/15.2.1/streambuf \
   /usr/include/c++/15.2.1/string \
   /usr/include/c++/15.2.1/string_view \
+  /usr/include/c++/15.2.1/system_error \
   /usr/include/c++/15.2.1/thread \
   /usr/include/c++/15.2.1/tuple \
   /usr/include/c++/15.2.1/type_traits \
+  /usr/include/c++/15.2.1/typeinfo \
   /usr/include/c++/15.2.1/vector \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -183,9 +217,11 @@ CMakeFiles/wordcount.dir/src/main.cpp.o: /home/joshua/Desktop/cpp-mini-projects/
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
@@ -222,6 +258,8 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
@@ -273,6 +311,7 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/chrono.h \
   /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
@@ -301,6 +340,7 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
@@ -308,6 +348,7 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/std_abs.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
@@ -319,6 +360,7 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unique_lock.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
   /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
   /usr/include/c++/15.2.1/bits/utility.h \
@@ -328,8 +370,10 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/concepts \
   /usr/include/c++/15.2.1/cstddef \
+  /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -346,9 +390,12 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/iostream \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/mutex \
   /usr/include/c++/15.2.1/new \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
+  /usr/include/c++/15.2.1/ratio \
   /usr/include/c++/15.2.1/stdexcept \
   /usr/include/c++/15.2.1/streambuf \
   /usr/include/c++/15.2.1/string \
@@ -386,6 +433,7 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
@@ -396,7 +444,8 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o: /home/joshua/Desktop/cpp-mini-p
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
 wordcount: /usr/lib/Scrt1.o \
   /usr/lib/crti.o \
@@ -438,43 +487,17 @@ wordcount: /usr/lib/Scrt1.o \
 
 /usr/lib/crtn.o:
 
-/usr/include/sys/single_threaded.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
 
-/usr/include/c++/15.2.1/iostream:
-
-/usr/include/c++/15.2.1/istream:
-
-/usr/include/c++/15.2.1/cwctype:
-
-/usr/include/c++/15.2.1/bits/streambuf_iterator.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/c++/15.2.1/bits/ostream.tcc:
-
-/usr/include/c++/15.2.1/bits/locale_classes.h:
-
-/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
-
 /usr/include/c++/15.2.1/bits/codecvt.h:
-
-/usr/lib/libc_nonshared.a:
-
-/usr/include/c++/15.2.1/bits/basic_ios.h:
 
 /home/joshua/Desktop/cpp-mini-projects/multithread-file-word-counter/src/word_counter.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
 
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/sys/types.h:
+/usr/include/sys/single_threaded.h:
 
 /usr/include/sys/select.h:
 
@@ -504,13 +527,11 @@ wordcount: /usr/lib/Scrt1.o \
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/c++/15.2.1/stdexcept:
-
-/usr/include/c++/15.2.1/vector:
 
 /usr/include/c++/15.2.1/thread:
 
@@ -522,7 +543,15 @@ wordcount: /usr/lib/Scrt1.o \
 
 /usr/include/c++/15.2.1/string:
 
+/usr/include/c++/15.2.1/vector:
+
+/usr/include/c++/15.2.1/stdexcept:
+
 /usr/include/c++/15.2.1/ratio:
+
+/usr/include/c++/15.2.1/mutex:
+
+/usr/include/c++/15.2.1/iostream:
 
 /usr/include/c++/15.2.1/iosfwd:
 
@@ -538,13 +567,11 @@ wordcount: /usr/lib/Scrt1.o \
 
 /usr/include/c++/15.2.1/debug/assertions.h:
 
+/usr/include/c++/15.2.1/istream:
+
+/usr/include/c++/15.2.1/cwctype:
+
 /usr/include/c++/15.2.1/ctime:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/include/c++/15.2.1/bits/istream.tcc:
-
-/usr/include/c++/15.2.1/cstdio:
 
 /usr/include/c++/15.2.1/cstdint:
 
@@ -556,9 +583,39 @@ wordcount: /usr/lib/Scrt1.o \
 
 /usr/include/c++/15.2.1/clocale:
 
-/usr/include/c++/15.2.1/bits/basic_ios.tcc:
+/usr/include/c++/15.2.1/bits/version.h:
 
-/usr/include/c++/15.2.1/cerrno:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
+
+/usr/include/c++/15.2.1/bits/vector.tcc:
+
+/usr/include/c++/15.2.1/bits/utility.h:
+
+/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
+
+/usr/include/c++/15.2.1/bits/uses_allocator.h:
+
+/usr/include/c++/15.2.1/bits/unique_ptr.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
+
+/usr/include/c++/15.2.1/bits/this_thread_sleep.h:
+
+/usr/include/locale.h:
+
+/usr/include/c++/15.2.1/bits/string_view.tcc:
+
+/usr/include/c++/15.2.1/bits/streambuf_iterator.h:
+
+/usr/include/errno.h:
+
+/usr/include/c++/15.2.1/exception:
+
+/usr/include/c++/15.2.1/bits/stl_vector.h:
+
+/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -580,15 +637,9 @@ wordcount: /usr/lib/Scrt1.o \
 
 /usr/include/bits/types/__FILE.h:
 
-/usr/include/c++/15.2.1/bits/ios_base.h:
-
-/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
-
 /usr/include/bits/types/FILE.h:
 
 /usr/include/bits/types.h:
-
-/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
 
 /usr/include/bits/stdint-intn.h:
 
@@ -605,6 +656,8 @@ wordcount: /usr/lib/Scrt1.o \
 /usr/include/bits/types/time_t.h:
 
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/15.2.1/bits/locale_classes.h:
 
 /usr/include/bits/types/struct_timeval.h:
 
@@ -630,10 +683,6 @@ CMakeFiles/wordcount.dir/src/word_counter.cpp.o:
 
 /usr/include/bits/select.h:
 
-/usr/include/c++/15.2.1/bits/locale_facets.tcc:
-
-/usr/include/c++/15.2.1/bits/stl_bvector.h:
-
 CMakeFiles/wordcount.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/fstream:
@@ -658,21 +707,15 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 
 /usr/include/bits/floatn.h:
 
-/usr/include/c++/15.2.1/bits/exception_ptr.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/c++/15.2.1/bits/unique_lock.h:
 
 /usr/include/c++/15.2.1/bits/locale_classes.tcc:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/bits/types/__sigset_t.h:
-
-/usr/include/c++/15.2.1/bits/uses_allocator.h:
-
-/usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -680,31 +723,23 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 
 /usr/include/bits/types/clock_t.h:
 
+/usr/lib/libc_nonshared.a:
+
+/usr/include/c++/15.2.1/bits/basic_ios.h:
+
 /usr/include/c++/15.2.1/pstl/pstl_config.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/bits/stdint-least.h:
 
-/usr/include/c++/15.2.1/bits/ostream.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/15.2.1/bits/nested_exception.h:
-
-/usr/include/c++/15.2.1/bits/stringfwd.h:
-
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/asm-generic/types.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
-
-/usr/include/c++/15.2.1/bits/this_thread_sleep.h:
+/usr/include/stdlib.h:
 
 /usr/include/c++/15.2.1/typeinfo:
-
-/usr/include/stdlib.h:
 
 /home/joshua/Desktop/cpp-mini-projects/multithread-file-word-counter/src/main.cpp:
 
@@ -728,12 +763,6 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/bits/parse_numbers.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/features.h:
-
-/usr/include/bits/endianness.h:
-
 /usr/include/bits/uintn-identity.h:
 
 /usr/include/c++/15.2.1/bit:
@@ -741,8 +770,6 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/bits/basic_string.tcc:
 
 /usr/include/bits/locale.h:
-
-/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
 
 /usr/include/wctype.h:
 
@@ -757,8 +784,6 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/ostream:
 
 /usr/include/bits/libc-header-start.h:
-
-/usr/include/c++/15.2.1/bits/unique_ptr.h:
 
 /usr/include/gnu/stubs.h:
 
@@ -775,6 +800,12 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/bits/functexcept.h:
 
 /usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/15.2.1/bits/stl_pair.h:
+
+/usr/include/bits/waitflags.h:
 
 /usr/include/c++/15.2.1/bits/exception_defines.h:
 
@@ -796,15 +827,35 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/backward/binders.h:
 
+/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/15.2.1/bits/ios_base.h:
+
 /usr/include/bits/timesize.h:
 
 /usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/c++/15.2.1/cctype:
+
+/usr/include/c++/15.2.1/bits/hash_bytes.h:
+
+/usr/include/c++/15.2.1/bits/stl_bvector.h:
+
+/usr/include/c++/15.2.1/bits/locale_facets.tcc:
 
 /usr/include/asm/bitsperlong.h:
 
 /usr/include/c++/15.2.1/bits/alloc_traits.h:
 
 /usr/include/c++/15.2.1/bits/localefwd.h:
+
+/usr/include/c++/15.2.1/cerrno:
+
+/usr/include/c++/15.2.1/bits/basic_ios.tcc:
 
 /usr/include/linux/types.h:
 
@@ -816,19 +867,65 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/bits/concept_check.h:
 
-/usr/include/c++/15.2.1/bits/version.h:
-
 /usr/include/c++/15.2.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
+
+/usr/include/features.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/c++/15.2.1/bits/std_mutex.h:
+
+/usr/include/c++/15.2.1/bits/fstream.tcc:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/c++/15.2.1/bits/cpp_type_traits.h:
+
+/usr/include/c++/15.2.1/bits/stl_construct.h:
 
 /usr/include/bits/wordsize.h:
 
 /usr/include/c++/15.2.1/bits/exception.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/15.2.1/bits/exception_ptr.h:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/include/c++/15.2.1/cstdio:
+
+/usr/include/c++/15.2.1/bits/istream.tcc:
+
+/usr/include/c++/15.2.1/limits:
+
+/usr/include/c++/15.2.1/ext/string_conversions.h:
+
+/usr/include/c++/15.2.1/bits/locale_facets.h:
+
+/usr/include/c++/15.2.1/bits/predefined_ops.h:
 
 /usr/include/c++/15.2.1/cwchar:
 
 /usr/include/bits/types/wint_t.h:
 
 /usr/include/c++/15.2.1/bits/memoryfwd.h:
+
+/usr/include/c++/15.2.1/bits/stringfwd.h:
+
+/usr/include/c++/15.2.1/bits/nested_exception.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/15.2.1/bits/ostream.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/c++/15.2.1/bits/ostream.tcc:
 
 /usr/include/c++/15.2.1/bits/ptr_traits.h:
 
@@ -839,14 +936,6 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/bits/streambuf.tcc:
 
 /usr/include/c++/15.2.1/bits/refwrap.h:
-
-/usr/include/c++/15.2.1/bits/locale_facets.h:
-
-/usr/include/c++/15.2.1/limits:
-
-/usr/include/c++/15.2.1/ext/string_conversions.h:
-
-/usr/include/c++/15.2.1/bits/predefined_ops.h:
 
 /usr/include/c++/15.2.1/bits/range_access.h:
 
@@ -866,14 +955,6 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 
 /usr/include/c++/15.2.1/bits/stl_algobase.h:
 
-/usr/include/c++/15.2.1/bits/fstream.tcc:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/c++/15.2.1/bits/cpp_type_traits.h:
-
-/usr/include/c++/15.2.1/bits/stl_construct.h:
-
 /usr/include/c++/15.2.1/ios:
 
 /usr/include/bits/endian.h:
@@ -881,29 +962,3 @@ CMakeFiles/wordcount.dir/src/main.cpp.o:
 /usr/include/c++/15.2.1/bits/invoke.h:
 
 /usr/include/c++/15.2.1/bits/stl_function.h:
-
-/usr/include/ctype.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/c++/15.2.1/bits/stl_pair.h:
-
-/usr/include/c++/15.2.1/bits/hash_bytes.h:
-
-/usr/include/c++/15.2.1/cctype:
-
-/usr/include/c++/15.2.1/exception:
-
-/usr/include/errno.h:
-
-/usr/include/c++/15.2.1/bits/stl_vector.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
-
-/usr/include/c++/15.2.1/bits/vector.tcc:
-
-/usr/include/locale.h:
-
-/usr/include/c++/15.2.1/bits/string_view.tcc:
-
-/usr/include/c++/15.2.1/bits/utility.h:
