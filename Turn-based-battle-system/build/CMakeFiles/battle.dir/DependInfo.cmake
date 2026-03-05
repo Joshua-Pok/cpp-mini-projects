@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/src/character.cpp" "CMakeFiles/battle.dir/src/character.cpp.o" "gcc" "CMakeFiles/battle.dir/src/character.cpp.o.d"
   "/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/src/main.cpp" "CMakeFiles/battle.dir/src/main.cpp.o" "gcc" "CMakeFiles/battle.dir/src/main.cpp.o.d"
   "" "battle" "gcc" "CMakeFiles/battle.dir/link.d"
   )

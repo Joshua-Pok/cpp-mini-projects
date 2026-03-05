@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/battle.dir/link.d"
+  "CMakeFiles/battle.dir/src/character.cpp.o"
+  "CMakeFiles/battle.dir/src/character.cpp.o.d"
   "CMakeFiles/battle.dir/src/main.cpp.o"
   "CMakeFiles/battle.dir/src/main.cpp.o.d"
   "battle"

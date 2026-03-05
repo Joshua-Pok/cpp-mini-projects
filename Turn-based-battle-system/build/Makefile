@@ -129,6 +129,30 @@ battle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battle.dir/build.make CMakeFiles/battle.dir/build
 .PHONY : battle/fast
 
+src/character.o: src/character.cpp.o
+.PHONY : src/character.o
+
+# target to build an object file
+src/character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battle.dir/build.make CMakeFiles/battle.dir/src/character.cpp.o
+.PHONY : src/character.cpp.o
+
+src/character.i: src/character.cpp.i
+.PHONY : src/character.i
+
+# target to preprocess a source file
+src/character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battle.dir/build.make CMakeFiles/battle.dir/src/character.cpp.i
+.PHONY : src/character.cpp.i
+
+src/character.s: src/character.cpp.s
+.PHONY : src/character.s
+
+# target to generate assembly for a file
+src/character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battle.dir/build.make CMakeFiles/battle.dir/src/character.cpp.s
+.PHONY : src/character.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... battle"
+	@echo "... src/character.o"
+	@echo "... src/character.i"
+	@echo "... src/character.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

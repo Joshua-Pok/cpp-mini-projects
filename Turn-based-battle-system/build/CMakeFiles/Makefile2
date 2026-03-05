@@ -85,12 +85,12 @@ clean: CMakeFiles/battle.dir/clean
 CMakeFiles/battle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battle.dir/build.make CMakeFiles/battle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battle.dir/build.make CMakeFiles/battle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles --progress-num=1,2 "Built target battle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles --progress-num=1,2,3 "Built target battle"
 .PHONY : CMakeFiles/battle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/battle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/battle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles 0
 .PHONY : CMakeFiles/battle.dir/rule
@@ -102,7 +102,7 @@ battle: CMakeFiles/battle.dir/rule
 # codegen rule for target.
 CMakeFiles/battle.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battle.dir/build.make CMakeFiles/battle.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles --progress-num=1,2 "Finished codegen for target battle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target battle"
 .PHONY : CMakeFiles/battle.dir/codegen
 
 # clean rule for target.

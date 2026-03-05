@@ -8,4 +8,4 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(include)
 
 
-add_executable(battle src/main.cpp)
+add_executable(battle src/main.cpp src/character.cpp)
