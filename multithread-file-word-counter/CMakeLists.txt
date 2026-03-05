@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ContactBook)
+project(file_wordcounter)
 
 
 set(CMAKE_CXX_STANDARD 17)
@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(include)
 
 
-add_executable(contact src/main.cpp)
+add_executable(wordcount src/main.cpp src/word_counter.cpp)

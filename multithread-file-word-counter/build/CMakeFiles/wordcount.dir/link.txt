@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/wordcount.dir/link.d CMakeFiles/wordcount.dir/src/main.cpp.o CMakeFiles/wordcount.dir/src/word_counter.cpp.o -o wordcount

@@ -1,0 +1,3 @@
+/home/joshua/Desktop/cpp-mini-projects/multithread-file-word-counter/build/CMakeFiles/wordcount.dir
+/home/joshua/Desktop/cpp-mini-projects/multithread-file-word-counter/build/CMakeFiles/edit_cache.dir
+/home/joshua/Desktop/cpp-mini-projects/multithread-file-word-counter/build/CMakeFiles/rebuild_cache.dir
