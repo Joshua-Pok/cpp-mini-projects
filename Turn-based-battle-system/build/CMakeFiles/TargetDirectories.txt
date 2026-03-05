@@ -1,0 +1,3 @@
+/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles/battle.dir
+/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles/edit_cache.dir
+/home/joshua/Desktop/cpp-mini-projects/Turn-based-battle-system/build/CMakeFiles/rebuild_cache.dir
